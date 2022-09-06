@@ -1,0 +1,26 @@
+.experience__card{
+    padding-bottom: 2rem ;
+    padding: 0 2rem;
+    padding-top:1rem ;
+
+}
+
+.position__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.position__title h4{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    color: #313030;
+}
+.position__title p{
+    font-size: 12px;
+    color: #585656;
+}
+.experience__description{
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.skillcard{
+    
+    padding: 0 20px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.skillcard h4{
+    font-size: 18px;
+    font-weight: bold;
+    color:#000000 ;
+    margin: 10px 0;
+}
+
+.skillcard p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #5c5757;
+    line-height: 18px;
+}
+
+.skill__icon__style{
+    color: #ffffff;
+    background-color: #394f99;
+    padding: 10px;
+    border-radius: 50%;
+
+}

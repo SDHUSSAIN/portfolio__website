@@ -1,0 +1,50 @@
+.portfolio__page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
+    padding-left: 20%;
+}
+.portfolio__page h2{
+    margin: 1rem 0;
+    font-size: 35px;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+.portfolio__title{
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #FAFAFA;
+}
+.portfolio__title h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Roboto',sans-serif;
+}
+.portfolio__title p{
+    font-size: 15px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-align: center;
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto',sans-serif;
+}
+
+.allprojects{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    padding: 1rem 3rem;
+}
